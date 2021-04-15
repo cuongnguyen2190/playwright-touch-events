@@ -1,7 +1,8 @@
 module.exports = {
-    launchBrowserApp: {
+    launchOptions: {
         headless: false,
-        slowMo: 40
+        slowMo: 40,
+        channel: "chrome"
     },
     device: 'Pixel 2'
 }
